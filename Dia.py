@@ -36,11 +36,10 @@ class Dia:
   def setDia(self, d):
     self.__dia = d
 
+    # Holi my dog
     
     
 # esto seria el main
 print("Calculdora de fechas bienvenido")
 d = Dia(11,11,2017)
 print("el dia " + d.toString())
-    
-
