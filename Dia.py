@@ -10,10 +10,13 @@ class Dia:
     self.__anio = a
   
   def esBisiesto(self):
-    # nada por aca 
+    if((a%4==0 and a%100!=0 )or a%400==0)
+     return true;
+    else:
+      return false;
   
   def sonIguales(self, otroDia):
-    # nada por aca
+     
     
     
   # metodo set y get
@@ -24,5 +27,8 @@ class Dia:
   
   def setDia(self, d):
     self.__dia = d
+    
+  def validarFecha(self):
+      
     
   
