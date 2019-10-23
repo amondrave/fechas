@@ -8,6 +8,12 @@ class Dia:
     self.__dia = d
     self.__mes = m
     self.__anio = a
+    
+  def restarDias(self,d,dd)
+    if(d<dd)
+      d++
+    else
+     dd--
   
   def esBisiesto(self):
     # nada por aca 
